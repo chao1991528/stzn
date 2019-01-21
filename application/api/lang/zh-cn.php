@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'Success'                                     => '成功',
+    'Api Sign error'                              => 'apiSign错误',
+    'Missing Header parameter'                    => '缺失header参数',
     'Keep login'                                  => '保持会话',
     'Sign in'                                     => '登入',
     'Username'                                    => '用户名',
