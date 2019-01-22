@@ -242,6 +242,9 @@ return [
         // 验证成功后是否重置
         'reset'    => true
     ],
+    'image_domain'              => Env::get('app.image_domain', ''), //图片域名
+    'domain'                    => Env::get('app.domain', ''), //项目域名
+    'skip_api_sign_check'       => Env::get('app.skip_api_sign_check', false),
     // +----------------------------------------------------------------------
     // | Token设置
     // +----------------------------------------------------------------------

@@ -2,3 +2,4 @@
 runtime/
 public/uploads/
 nbproject/
+*.log

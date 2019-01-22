@@ -4,7 +4,7 @@
         <!-- 加载样式及META信息 -->
         {include file="common/meta" /}
     </head>
-    <body class="hold-transition skin-green sidebar-mini fixed {if $config.fastadmin.multiplenav}multiplenav{/if}" id="tabs">
+    <body class="hold-transition skin-blue-light sidebar-mini fixed {if $config.fastadmin.multiplenav}multiplenav{/if}" id="tabs">
         <div class="wrapper">
 
             <!-- 头部区域 -->
@@ -32,10 +32,10 @@
             </div>
 
             <!-- 底部链接,默认隐藏 -->
-            <footer class="main-footer hide">
-                <div class="pull-right hidden-xs">
+            <footer class="main-footer">
+                <div class="pull-right">
                 </div>
-                <strong>Copyright &copy; 2017-2018 <a href="https://www.fastadmin.net">Fastadmin</a>.</strong> All rights reserved.
+                <strong>Copyright &copy; 2017-2018 <a href={empty name="Think.config.domain"}javascript:void(0);{else /}{$Think.config.domain}{/empty}>{$site.name|mb_substr=0,4,'utf-8'|mb_strtoupper='utf-8'}</a>.</strong> All rights reserved.
             </footer>
 
             <!-- 右侧控制栏 -->
